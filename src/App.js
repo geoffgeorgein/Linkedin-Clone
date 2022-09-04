@@ -9,7 +9,7 @@ function App() {
     <div className="App">
      <Header />
      <h1> Linkedin Clone</h1>
-    </div>
+    </div> 
   );
 }
 
