@@ -1,7 +1,13 @@
 
 .header{
 
+    position: sticky;
+    top:0;
     display:flex;
+    justify-content: space-evenly;
+    border-bottom:  0.1px solid lightgray;
+    padding:10px 0px;
+    z-index: 999;
   }
   
   .header-left{
@@ -13,6 +19,11 @@
   
     object-fit:contain;
     height:40px;
+    margin-right:10px;
+  }
+
+  .header_right{
+    display:flex;
   }
 
   .header_search{
@@ -21,4 +32,6 @@
     display:flex;
     align-items: center;
     border-radius:5px;
+    color:gray;
+    height:22px;
   }
