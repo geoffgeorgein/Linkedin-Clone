@@ -1,28 +1,30 @@
 import React from 'react'
 import SearchIcon from '@mui/icons-material/Search';
+import "./Header.css";
 
 
 function Header() {
   return (
-    <div>Header
+    <div className="header">
     
-    <div className="Header_left">
-        <img></img>
+        <div className="header_left">
+            <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="logo"></img>
 
-    </div>
+        </div>
 
-    <div className="Header_Search">
-        <SearchIcon></SearchIcon>
-        <input type="text">
+        <div className="header_search">
 
-        </input>
-        
-    </div>
+            <SearchIcon></SearchIcon>
+            <input type="text">
 
-    <div className="Header_right">
-
+            </input>
             
-    </div>
+        </div>
+
+        <div className="header_right">
+
+                
+        </div>
     </div>
         )
 }
