@@ -7,10 +7,11 @@
     justify-content: space-evenly;
     border-bottom:  0.1px solid lightgray;
     padding:10px 0px;
+    width:100%;
     z-index: 999;
   }
   
-  .header-left{
+  .header_left{
     display:flex;
   
   }
@@ -34,4 +35,11 @@
     border-radius:5px;
     color:gray;
     height:22px;
+    background-color: #eef3f8;
+  }
+
+  .header_search >input {
+    outline: none;
+    background: none;
+    border:none;
   }

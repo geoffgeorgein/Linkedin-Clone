@@ -1,0 +1,13 @@
+
+.sidebar{
+
+    display: flex;
+    top:80px;
+    flex:0.2;
+    border-radius: 10px;
+
+}
+
+.sidebar_avatar{
+    margin-bottom:10px;
+}

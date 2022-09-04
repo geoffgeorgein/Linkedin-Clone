@@ -1,4 +1,5 @@
 import React from 'react';
+import Sidebar from "./Sidebar";
 
 import './App.css';
 import Header from "./Header";
@@ -9,7 +10,14 @@ function App() {
   return (
     <div className="App">
      <Header />
-     <h1> Linkedin Clone</h1>
+
+      <div className='app_body'>
+
+          
+          <Sidebar></Sidebar>
+      </div>
+
+     
     </div> 
   );
 }

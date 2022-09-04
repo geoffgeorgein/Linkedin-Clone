@@ -16,9 +16,7 @@ function Header() {
         <div className="header_left">
             <img src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="logo"></img>
 
-        </div>
-
-        <div className="header_search">
+            <div className="header_search">
 
             <SearchIcon></SearchIcon>
             <input type="text">
@@ -26,6 +24,10 @@ function Header() {
             </input>
             
         </div>
+
+        </div>
+
+        
 
         <div className="header_right">
 
