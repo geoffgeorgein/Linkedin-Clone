@@ -5,6 +5,7 @@ import InputOption from "./InputOption";
 import ImageIcon from '@mui/icons-material/Image';
 import YouTubeIcon from '@mui/icons-material/YouTube';
 import EventIcon from '@mui/icons-material/Event';
+import Post from './Post';
 
 function Feed() {
   return (
@@ -30,6 +31,8 @@ function Feed() {
             </div>
 
         </div>
+
+        <Post name="Geoff George"></Post>
 
     </div>
   )

@@ -1,4 +1,10 @@
 .inputoption{
+    display: flex;
     padding:5px;
     margin-top: 10px;
+    align-items: center;
+}
+.inputoption:hover{
+    background-color: whitesmoke;
+    border-radius: 10px;
 }

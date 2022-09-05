@@ -10,6 +10,8 @@ function InputOption({Icon,title,color}) {
 
     </div>
   )
+
+  
 }
 
 export default InputOption
