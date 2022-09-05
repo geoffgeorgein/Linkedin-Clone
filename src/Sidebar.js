@@ -1,5 +1,6 @@
 import React from 'react'
 import Avatar from '@mui/material/Avatar';
+import "./sidebar.css";
 
 
 function Sidebar() {
@@ -8,26 +9,36 @@ function Sidebar() {
 
         <div className="sidebar_top">
 
+            <img src="https://timelinecovers.pro/facebook-cover/download/abstract_blue_and_black_pixels-facebook-cover.jpg" alt=""></img>
             <Avatar className="sidebar_avatar"></Avatar>
             <h2>Geoff George</h2>
 
-        </div>
+            <div className="sidebar_stats">
 
-        <div className="sidebar_stats">
+                <div className="sidebar_stat">
 
-            <div lclassName="sidebar_stat">
+                        <p> Who viewed you</p>
+                        <p className='sidebar_statnum'> 290</p>
+                </div>
 
-                    <p> Who viewed you</p>
-                    <p className='sidebar_statnum'> 290</p>
+                <div className="sidebar_stat">
+
+                        <p> Who viewed your posts </p>
+                        <p className='sidebar_statnum'> 7350</p>
+                </div>
+
             </div>
 
-            <div lclassName="sidebar_stat">
 
-                    <p> Who viewed your posts</p>
-                    <p className='sidebar_statnum'> 7350</p>
-            </div>
 
         </div>
+
+        <div className="sidebar_bottom">
+
+
+        </div>
+
+        
 
     
     </div>
