@@ -1,3 +1,26 @@
 .post{
     z-index: 99;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+.post_header{
+    display:flex;
+    margin-bottom: 10px;
+}
+.post_info{
+
+    margin-left: 10px;
+}
+
+.post-body{
+
+    overflow-wrap: anywhere;
+    padding-left: 10px;
+}
+
+.post_buttons{
+    display:flex;
+    justify-content: space-between;
 }
